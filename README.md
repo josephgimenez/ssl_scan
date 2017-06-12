@@ -13,7 +13,6 @@ go build
 `./ssl_scan -hostname yahoo.com`
 
 ```
-╰─ ./ssl_scan -hostname yahoo.com                                              
 Configured Options...
 SSL expiration notification threshold set at: 60 days
 Connection timeout set to: 10 seconds
