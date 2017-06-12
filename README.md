@@ -7,6 +7,19 @@ Scan https sites to determine when an SSL certificate is set to expire.
 go build
 ```
 
+## Tests
+```
+cd certificateutils
+
+go test -v
+=== RUN   TestExpiringCertificate
+--- PASS: TestExpiringCertificate (0.38s)
+=== RUN   TestExpiredCertificate
+--- PASS: TestExpiredCertificate (0.20s)
+PASS
+ok  	ssl_scan/certificateutils	0.612s
+```
+
 ## Running
 
 ### Scan individual host:
